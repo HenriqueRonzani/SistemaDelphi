@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/03/28 09:40:28.000.932,=C:\Users\3os Anos\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/04/24 08:51:16.000.148,=C:\Users\3os Anos\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/04/24 08:51:57.000.222,C:\Users\3os Anos\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\351 - 2023\Henrique e Narco\Sistema_cadastro\fonts\U_principal.dfm</Transaction>
+    <Transaction>2023/04/24 08:51:57.000.222,C:\Users\3os Anos\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\351 - 2023\Henrique e Narco\Sistema_cadastro\fonts\U_principal.pas</Transaction>
+    <Transaction>2023/04/24 08:52:13.000.895,C:\Users\3os Anos\Documents\Embarcadero\Studio\Projects\Project4.dproj=C:\351 - 2023\Henrique e Narco\Sistema_cadastro\SistemaCadastro.dproj</Transaction>
+    <Transaction>2023/04/24 09:14:21.000.031,=C:\351 - 2023\Henrique e Narco\Sistema_cadastro\Unit1.pas</Transaction>
+    <Transaction>2023/04/24 09:14:49.000.837,C:\351 - 2023\Henrique e Narco\Sistema_cadastro\Unit1.pas=C:\351 - 2023\Henrique e Narco\Sistema_cadastro\fonts\U_data.pas</Transaction>
+    <Transaction>2023/04/24 09:14:49.000.837,C:\351 - 2023\Henrique e Narco\Sistema_cadastro\Unit1.dfm=C:\351 - 2023\Henrique e Narco\Sistema_cadastro\fonts\U_data.dfm</Transaction>
+    <Transaction>2023/04/24 10:17:05.000.451,=C:\351 - 2023\Henrique e Narco\Sistema_cadastro\Unit1.pas</Transaction>
+    <Transaction>2023/04/24 10:17:32.000.423,C:\351 - 2023\Henrique e Narco\Sistema_cadastro\Unit1.pas=C:\351 - 2023\Henrique e Narco\Sistema_cadastro\U_clientes.pas</Transaction>
+    <Transaction>2023/04/24 10:17:32.000.423,C:\351 - 2023\Henrique e Narco\Sistema_cadastro\Unit1.dfm=C:\351 - 2023\Henrique e Narco\Sistema_cadastro\U_clientes.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

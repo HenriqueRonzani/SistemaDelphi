@@ -1,0 +1,48 @@
+unit U_clientes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Mask, Vcl.DBCtrls;
+
+type
+  Tfrm_cad_clientes = class(TForm)
+    PageControl1: TPageControl;
+    tb_cadastro: TTabSheet;
+    tb_consulta: TTabSheet;
+    txt_nome: TDBEdit;
+    txt_id: TDBEdit;
+    txt_endereco: TDBEdit;
+    txt_bairro: TDBEdit;
+    Image1: TImage;
+    txt_cidade: TDBEdit;
+    txt_uf: TDBEdit;
+    txt_cep: TDBEdit;
+    txt_cfp: TDBEdit;
+    txt_telefone: TDBEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    txt_date: TDBEdit;
+    Label5: TLabel;
+    txt_email: TDBEdit;
+    Label6: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frm_cad_clientes: Tfrm_cad_clientes;
+
+implementation
+
+{$R *.dfm}
+
+uses U_data;
+
+end.

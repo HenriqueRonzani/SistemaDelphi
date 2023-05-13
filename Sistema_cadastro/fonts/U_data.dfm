@@ -1,0 +1,116 @@
+object dm: Tdm
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 189
+  Width = 141
+  object conexao: TFDConnection
+    Params.Strings = (
+      'Database=cadastro_351'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Connected = True
+    Left = 16
+    Top = 16
+  end
+  object driver: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\351 - 2023\Henrique e Narco\Sistema_cadastro\lib\libmySQL.dll'
+    Left = 16
+    Top = 72
+  end
+  object wait: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 16
+    Top = 128
+  end
+  object tb_clientes: TFDTable
+    IndexFieldNames = 'id'
+    Connection = conexao
+    UpdateOptions.UpdateTableName = 'clientes'
+    TableName = 'clientes'
+    Left = 80
+    Top = 16
+    object tb_clientesid: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+      ReadOnly = True
+    end
+    object tb_clientesnome: TStringField
+      FieldName = 'nome'
+      Origin = 'nome'
+      Required = True
+      Size = 50
+    end
+    object tb_clientesendereco: TStringField
+      FieldName = 'endereco'
+      Origin = 'endereco'
+      Required = True
+      Size = 80
+    end
+    object tb_clientesbairro: TStringField
+      FieldName = 'bairro'
+      Origin = 'bairro'
+      Required = True
+      Size = 50
+    end
+    object tb_clientescidade: TStringField
+      FieldName = 'cidade'
+      Origin = 'cidade'
+      Required = True
+      Size = 60
+    end
+    object tb_clientesUF: TStringField
+      FieldName = 'UF'
+      Origin = 'UF'
+      Required = True
+      FixedChar = True
+      Size = 2
+    end
+    object tb_clientesCEP: TStringField
+      FieldName = 'CEP'
+      Origin = 'CEP'
+      Required = True
+      Size = 50
+    end
+    object tb_clientesCPF: TStringField
+      FieldName = 'CPF'
+      Origin = 'CPF'
+      Required = True
+      EditMask = '000.000.000-00;1;_'
+    end
+    object tb_clientestelefone: TStringField
+      FieldName = 'telefone'
+      Origin = 'telefone'
+      Required = True
+      EditMask = '(00)00000-0000;1;_'
+    end
+    object tb_clientesemail: TStringField
+      FieldName = 'email'
+      Origin = 'email'
+      Required = True
+      Size = 50
+    end
+    object tb_clientesdata_nasc: TDateField
+      FieldName = 'data_nasc'
+      Origin = 'data_nasc'
+      Required = True
+      EditMask = '00/00/0000;1;_'
+    end
+    object tb_clientesdata_cad: TDateField
+      FieldName = 'data_cad'
+      Origin = 'data_cad'
+      Required = True
+      EditMask = '00/00/0000;1;_'
+    end
+    object tb_clientessituacao: TStringField
+      FieldName = 'situacao'
+      Origin = 'situacao'
+      Required = True
+      Size = 12
+    end
+  end
+  object datasource: TDataSource
+    DataSet = tb_clientes
+    Left = 80
+    Top = 72
+  end
+end
